@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de contacto - Clase 4</title>
+</head>
+<body>
+    <h1>Formulario de contacto</h1>
+        <form>
+            <label for="nombre">Nombre:</label>
+                <input type="text" name="nombre" id="nombre" required>
+            <label for="correo">Correo:</label>
+                <input type="email" name="correo" id="correo" required>
+            <label for="motivo">Motivo:</label>
+                <select name="motivo" id="motivo">
+                    <option value="duda">Una duda</option>
+                     <option value="sugerencia">Una sugerencia</option>
+                    <option value="otro">Otro</option>
+                </select>
+                <label for="mensaje">Mensaje:</label>
+                <textarea name="mensaje" id="mensaje" required></textarea>
+                <button type="submit">Enviar</button>
+
+        </form>
+</body>
+</html>
